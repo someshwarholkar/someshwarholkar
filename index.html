@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap By SKILLHUB</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+  <style>
+    .nav {
+      background-color: black;
+      color: white;
+      height: 100px;
+      position: sticky;
+      top: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- search collapse start -->
+  <div class="alert alert-primary mb-0 collapse" id="search">
+    <div class="container">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Username">
+        <button type="button" class="btn btn-primary">
+          search<i class="bi bi-search"></i>
+        </button>
+      </div>
+      <div class="row">
+        <h2 class="my-4">Quick links</h2>
+        <div class="col-sm-3">
+          <p><a href="">dummy link</a></p>
+          <p><a href="">dummy link</a></p>
+          <p><a href="">dummy link</a></p>
+          <p><a href="">dummy link</a></p>
+        </div>
+        <div class="col-sm-3">
+          <p><a href="">dummy link</a></p>
+          <p><a href="">dummy link</a></p>
+          <p><a href="">dummy link</a></p>
+          <p><a href="">dummy link</a></p>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img class="img-fluid"
+                    src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/1/b/0/15itl6-thin-and-light-laptop-lenovo-original-imagkwgzafjp33es.jpeg?q=70"
+                    alt="">
+                </div>
+                <div class="col-sm-6">
+                  <h3>Feature Product</h3>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <button type="button" class="btn btn-outline-primary">shop now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- search collapse end -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offerkart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- menu start -->
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown">
+            menu
+          </button>
+          <div class="dropdown-menu alert alert-primary w-100 border-bottom border-5 border-primary">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4">
+                    <i class="bi bi-laptop fs-1"></i>
+                    <div>
+                      <h6>Laptop</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4">
+                    <i class="bi bi-pc-display fs-1"></i>
+                    <div>
+                      <h6>Desktop</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4">
+                    <i class="bi bi-hdd-stack fs-1"></i>
+                    <div>
+                      <h6>SSD</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4">
+                    <i class="bi bi-router fs-1"></i>
+                    <div>
+                      <h6>Router</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4">
+                    <i class="bi bi-mouse fs-1"></i>
+                    <div>
+                      <h6>Mouse</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4">
+                    <i class="bi bi-memory fs-1"></i>
+                    <div>
+                      <h6>RAM</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div></var>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu end  -->
+
+        </div>
+        <!-- login offcanvas start -->
+        <div class="ms-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-target="#search" data-bs-toggle="collapse">
+            <i class="bi bi-search"></i>
+          </button>
+          <button type="button" class="btn btn-outline-light" data-bs-target="#cart" data-bs-toggle="offcanvas">
+            <i class="bi bi-cart"></i>
+          </button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#login">Login<i
+              class="bi bi-person-lock"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="offcanvas offcanvas-start" id="login">
+    <div class="offcanvas-header bg-primary">
+      <h5 class="offcanvas-title text-light" id="offcanvasexamplelable">Secure Login</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <input type="text" class="form-control" placeholder="Enter Email">
+      <br>
+      <input type="text" class="form-control" placeholder="Enter Password">
+      <br>
+      <button type="button" class="btn btn-primary w-100">
+        login</button>
+      <p>Dont Have Account? <a href="">creat account</a> </p>
+    </div>
+  </div>
+  <!-- login offcanvas end -->
+
+  <!-- cart offcanvas start -->
+
+  <div class="offcanvas offcanvas-start" id="cart">
+    <div class="offcanvas-header bg-primary">
+      <h5 class="offcanvas-title">cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-6"><img class="img-fluid"
+                src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRTgKoxx6eumLxijIRuu1jNJxzFJvqjnZeBUD5VrwahlYjUA0xt06declxqwYAj56ptWinpbl8XUEViXkEG5FA-qh_UxFioySEgJaW2xrs&usqp=CAc"
+                alt="">
+            </div>
+            <div class="col-sm-2">
+              <span>Qty:2</span>
+            </div>
+            <div class="col-sm-4">
+              <span>47,999/-</span>
+            </div>
+          </div>
+          <p class="text-success text-center">saved 150</p>
+
+          <div class="btn-group w-100">
+            <button type="button" class="btn btn-outline-danger">Remove</button>
+            <button type="button" class="btn btn-outline-warning">whishlist</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-6"><img class="img-fluid"
+                src="data:image/png;base64,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"
+                alt="">
+            </div>
+            <div class="col-sm-2">
+              <span>Qty:2</span>
+            </div>
+            <div class="col-sm-4">
+              <span>57,499/-</span>
+            </div>
+          </div>
+          <p class="text-success text-center">saved 175</p>
+
+          <div class="btn-group w-100">
+            <button type="button" class="btn btn-outline-danger">Remove</button>
+            <button type="button" class="btn btn-outline-warning">whishlist</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card offcanvas end  -->
+
+  <!-- carousel start  -->
+
+  <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="500">
+
+        <div class="row">
+          <div class="col-sm-6 text-end">
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTQ4B39jTX3KNMZ3cju_VdplZtd8_RQRB-8B4PmkbQKM24Za7BU3NZFFK50mqEuzDAdFbef8aGb9Jce7eD2zVePQ3sf8fZR8c-va3KJmME&usqp=CAc"
+              alt="">
+          </div>
+          <div class="col-sm-6">
+            <h2>HP XCP 14pro</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, magnam!</p>
+            <p>Starting from Rs:99,999</p>
+            <button type="button" class="btn btn-outline-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="500">
+        <div class="row">
+          <div class="col-sm-6 text-end">
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTQ4B39jTX3KNMZ3cju_VdplZtd8_RQRB-8B4PmkbQKM24Za7BU3NZFFK50mqEuzDAdFbef8aGb9Jce7eD2zVePQ3sf8fZR8c-va3KJmME&usqp=CAc"
+              alt="">
+          </div>
+          <div class="col-sm-6">
+            <h2>DELL XPS 13Pro</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, magnam!</p>
+            <p>Starting from Rs:65,999</p>
+            <button type="button" class="btn btn-outline-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- carousel end -->
+
+  <!-- feature start  -->
+
+  <div class="nav bg-primary mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="d-flex gap-3 py-4">
+            <i class="bi bi-laptop fs-1"></i>
+            <div>
+              <h3>secure checkout</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="d-flex gap-3 py-4">
+            <i class="bi bi-box-fill fs-1"></i>
+            <div>
+              <h3>secure checkout</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="d-flex gap-3 py-4">
+            <i class="bi bi-truck fs-1"></i>
+            <div>
+              <h3>secure checkout</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- feature end  -->
+
+  <!-- product card start  -->
+  <!-- card start -->
+  <div class="container d-flex justify-content-between mt-5 align-items-center">
+    <h1>Feature Products </h1>
+    <button type="button" class="btn btn-outline-primary">View All</button>
+  </div>
+  <!-- card end -->
+
+  <div class="container">
+    <div class="row mt-5 mb-5">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid"
+                  src="https://rukminim1.flixcart.com/image/832/832/xif0q/computer/h/u/b/-original-imagg2vnsrgrfkmz.jpeg?q=70"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <div>
+                  <img class="img-fluid"
+                    src="https://rukminim1.flixcart.com/image/832/832/kzpw2vk0/computer/v/z/k/a314-22-laptop-acer-original-imagbz2pzh2g4rr5.jpeg?q=70"
+                    alt="">
+                </div>
+                <div class="mt-2">
+                  <img class="img-fluid"
+                    src="https://rukminim1.flixcart.com/image/832/832/kzpw2vk0/computer/5/b/x/a314-22-laptop-acer-original-imagbz2pzvmgcev6.jpeg?q=70"
+                    alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary mb-0">
+            <div class=" d-flex justify-content-between">
+              <strong>MSI meta</strong>
+              <p>Starting:Rs.87,474</p>
+            </div>
+            <button class="btn btn-outline-primary w-100" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-2" src="https://m.media-amazon.com/images/I/71R-AObyPFL._SX679_.jpg" alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-2" src="https://m.media-amazon.com/images/I/61adQywp7RL._SX679_.jpg" alt="">
+
+                <br><br>
+                <img class="img-fluid" src="https://m.media-amazon.com/images/I/617eXYWEmNL._SX679_.jpg" alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary mb-0">
+            <div class="d-flex justify-content-between">
+              <strong>N W T</strong>
+              <p>Starting:Rs.1,10,000</p>
+            </div>
+            <button type="button" class="w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 ">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=598&qlt=100,1&resMode=sharp2&size=598,402&chrss=full"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mb-0"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary mb-0">
+            <div class=" d-flex justify-content-between">
+              <strong> ASUS</strong>
+              <p>Starting:Rs.90,000</p>
+            </div>
+            <button type="button" class="w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-sm-4 my-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=598&qlt=100,1&resMode=sharp2&size=598,402&chrss=full"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary">
+            <div class=" d-flex justify-content-between">
+              <strong> APPLE</strong>
+              <p>Starting:Rs.1,000,000</p>
+            </div>
+            <button type="button" class=" w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-sm-4 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=598&qlt=100,1&resMode=sharp2&size=598,402&chrss=full"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary mb-0">
+            <div class=" d-flex justify-content-between">
+              <strong> LENOVO</strong>
+              <p>Starting:Rs.75,000</p>
+            </div>
+            <button type="button" class=" w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-sm-4 mt-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=598&qlt=100,1&resMode=sharp2&size=598,402&chrss=full"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid mb-2"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card-footer alert alert-primary mb-2">
+            <div class=" d-flex justify-content-between">
+              <strong> DELL</strong>
+              <p>Starting:Rs.85,000</p>
+            </div>
+            <button type="button" class=" w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=598&qlt=100,1&resMode=sharp2&size=598,402&chrss=full"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary">
+            <div class=" d-flex justify-content-between">
+              <strong> DELL</strong>
+              <p>Starting:Rs.87,000</p>
+            </div>
+            <button type="button" class=" w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=598&qlt=100,1&resMode=sharp2&size=598,402&chrss=full"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary">
+            <div class=" d-flex justify-content-between">
+              <strong> DELL</strong>
+              <p>Starting:Rs.95,000</p>
+            </div>
+            <button type="button" class=" w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid mt-1"
+                  src="https://www.lenovo.com/medias/ThinkBook-14-Gen-2-Intel-hero.png?context=bWFzdGVyfHJvb3R8NjYwMDh8aW1hZ2UvcG5nfGg2NC9oZjYvMTMwMzMyMzY0NjM2NDYucG5nfDdlZWU5OGJlYzllYWI0OTM2NDcyMjMwYzA4ZmY3OWRjZDFkNTI4NjgxNWJhOGRmNmZlYTE3OWUzODhmOWQyZjM"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid mt-1"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=500&qlt=100,1&resMode=sharp2&size=500,402&chrss=full"
+                  alt="">
+
+                <br><br>
+                <img class="img-fluid"
+                  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/16-5620/media-gallery/notebook-inspiron-16-5620-2-in-1-gy-fpr-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=570&qlt=100,1&resMode=sharp2&size=570,402&chrss=full"
+                  alt="">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer alert alert-primary">
+            <div class=" d-flex justify-content-between">
+              <strong> DELL</strong>
+              <p>Starting:Rs.95,000</p>
+            </div>
+            <button type="button" class=" w-100 btn btn-outline-primary">shop now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+
+  <!-- product card end  -->
+
+
+  <!-- product info start -->
+
+  <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+    Button with data-bs-target
+  </button> -->
+
+  <div class="offcanvas offcanvas-start" id="offcanvasExample">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+          data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- product info end -->
+  <!-- product feature start  -->
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 mb-5">
+        <div class="card border-5 border-success">
+          <div class="card-body border border-5 border-success">
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-success">Most Popular</button>
+              <span><i class="bi bi-heart"></i></span>
+            </div>
+            <div class="col-sm-12 my-5 ms-4">
+              <img class="img-fluid w-75"
+                src="https://rukminim1.flixcart.com/image/832/832/kbnz8nk0/router/x/y/k/d-link-dir-650in-original-imafsysqj3f3tec5.jpeg?q=70"
+                alt="">
+              <p class="text-center">Accessorise Router</p>
+              <p class="text-center"> <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i
+                  class="bi bi-star"></i><i class="bi bi-star"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-5">
+        <div class="card border-5">
+          <div class="card-body border border-5 border-danger">
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-danger">Outoff stocks</button>
+              <span><i class="bi bi-heart"></i></span>
+            </div>
+            <div class="my-5 mb-0">
+              <img class="img-fluid w-100 mb-3"
+                src="https://rukminim1.flixcart.com/image/312/312/l3rmzrk0/computer/z/2/c/-original-imagetjyhhtrtkdg.jpeg?q=70"
+                alt="">
+              <p class="text-center">Accessories Laptop Skin</p>
+              <p class="text-center"> <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i
+                  class="bi bi-star"></i><i class="bi bi-star"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-5">
+        <div class="card border-5 border-success">
+          <div class="card-body border border-5 border-success">
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-success">Most Popular</button>
+              <span><i class="bi bi-heart"></i></span>
+            </div>
+            <div class="col-sm-12 my-5 ms-4">
+              <img class="img-fluid w-75"
+                src="https://rukminim1.flixcart.com/image/612/612/k4u7i4w0/mobile-phone-lens/v/g/7/mobile-camera-lens-smartphone-camera-lens-mobile-lens-mobile-original-imafnnhxgfxaawnw.jpeg?q=70"
+                alt="">
+              <div class="mt-2">
+                <p class="text-center">Accessories cam.lens </p>
+                <p class="text-center">
+                  <i class="bi text-warning bi-star"></i>
+                  <i class="bi text-warning bi-star"></i>
+                  <i class="bi text-warning bi-star"></i>
+                  <i class="bi text-warning bi-star"></i>
+                  <i class="bi text-warning bi-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- product feature end  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
